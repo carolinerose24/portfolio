@@ -1,0 +1,60 @@
+body {
+  font-family: serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+}
+
+p, li {
+  font-family: verdana;
+}
+
+a:hover {
+  text-transform: uppercase;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 8px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar li {
+  display: inline;
+  padding: 10px;
+  color: white;
+  /* background-color: #85eff2; */
+}
+
+.nav-bar__item:hover {
+  /* background-color: #111; */
+  background-color: #FF0000;
+}
+
+.button {
+  color: #999;
+  background-color: #85eff2;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+  border: 2px solid #999;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.button:hover {
+  box-shadow: 2px 2px #888888;
+}
+
+#github {
+  text-shadow: 0 0 3px #FF0000;
+}
+
+#linkedin {
+  text-shadow: 0 0 3px #00FF00;
+}
